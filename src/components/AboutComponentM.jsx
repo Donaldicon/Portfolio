@@ -4,7 +4,7 @@ import imgOne from '../assets/about/img1.jpeg'
 import imgTwo from '../assets/about/img2.jpeg'
 import chizzy from '../assets/about/chizzy.jpeg'
 import imgThree from '../assets/about/img3.jpeg'
-import nysc from '../assets/about/nysc.jpg'
+import nysc from '../assets/about/nysc.png'
 
 import js from '../assets/about/Javascript.png'
 import react from '../assets/about/React2.png'

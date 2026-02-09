@@ -12,7 +12,9 @@ import { faMoon } from '@fortawesome/free-regular-svg-icons'
 import { faSun } from '@fortawesome/free-regular-svg-icons'
 
 //Profile Photo
-import profilePhoto from '../assets/navbar/profile-photo.png'
+
+
+import profilePhoto from '../assets/about/nysc.png'
 
 import { useState, useEffect } from 'react'
 
@@ -128,7 +130,7 @@ useEffect(() => {
             <img 
             src={profilePhoto} 
             alt="Profile Photo" 
-            className='rounded-full w-[25px] laptop:w-[35px] big:w-[45px]'/>
+            className='rounded-full w-[25px] h-[25px] laptop:w-[35px] laptop:h-[35px] big:w-[45px] big:h-[45px] object-cover'/>
           </span>
 
         </div>
@@ -153,7 +155,7 @@ useEffect(() => {
             <img 
             src={profilePhoto} 
             alt="Profile Photo" 
-            className='rounded-full w-[30px] laptop:w-[40px]'/>
+            className='rounded-full w-[30px] h-[30px] object-cover'/>
           </span>
 
           <div 
